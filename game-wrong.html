@@ -14,6 +14,66 @@
     <body class="game left-selected response response-wrong">
         <div id="godContainer">
             <div data-reactroot="">
+                <div class="menu-burger">
+                    <div class="left-side">
+                        <div class="close-side">
+                            <button class="close"></button>
+                        </div>
+                        <ul class="menu">
+                            <li>
+                                <a href="#home" class="menu-item">Home</a>
+                            </li>
+                            <li class="current">
+                                <a href="#regles-du-jeu" class="menu-item tab-select">Regles du jeu</a>
+                            </li>
+                            <li>
+                                <a href="#a-propos" class="menu-item tab-select">A propos de l'équipe</a>
+                            </li>
+                            <li>
+                                <a href="#mentions-legales" class="menu-item tab-select">Mentions Légales</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-side">
+                        <div id="regles-du-jeu">
+                            <h2 class="h2">Comment ça marche ?</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla, odio ac molestie interdum, eros neque rhoncus nibh, in mollis</p>
+                            <p>Aenean fermentum dolor eu elementum hendrerit. Pellentesque tincidunt, elit eu lobortis maximus, lorem libero ultrices ipsum, sit amet tincidunt nibh risus ac ligula.Vivamus in neque massa. Sed commodo tellus eget convallis congue. Aenean mattis quam sed libero efficitur ullamcorper.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla, odio ac molestie interdum, eros neque rhoncus nibh, in mollis</p>
+                        </div>
+                        <div id="a-propos" style="display: none">
+                            <h2 class="h2">Qui sommes nous ?</h2>
+                            <p>Aenean fermentum dolor eu elementum hendrerit. Pellentesque <strong>Python</strong>, elit eu lobortis maximus,
+                                Cras arcu massa, tristique a <strong>ReactJS</strong>, maximus Ut id odio eleifend id odio elit eu lobortis.</p>
+                            <ul class="members">
+                                <li>
+                                    <span class="name">Alexandre CHARLIN</span>
+                                    <span class="job">Développeur Back-End</span>
+                                </li>
+                                <li>
+                                    <span class="name">Ambroise CHRISTEA</span>
+                                    <span class="job">Développeur Front-End</span>
+                                </li>
+                                <li>
+                                    <span class="name">Nicolas RIVIERE</span>
+                                    <span class="job">Directeur Artistique / Intégrateur</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="mentions-legales" style="display: none">
+                            <h2 class="h2">Mentions légales</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla, odio ac molestie interdum, eros neque rhoncus nibh, in mollis</p>
+                            <h3 class="h3">Lorem ipsum dolor sit amet.</h3>
+                            <p>Aenean fermentum dolor eu elementum hendrerit. Pellentesque tincidunt, elit eu lobortis maximus, lorem libero ultrices ipsum, sit amet tincidunt nibh risus ac ligula.Vivamus in neque massa. Sed commodo tellus eget convallis congue. Aenean mattis quam sed libero efficitur ullamcorper.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla, odio ac molestie interdum, eros neque rhoncus nibh, in mollis</p>
+                            <h3 class="h3">Pellentesque tincidunt.</h3>
+                            <p>Consectetur adipiscing elit. Aliquam fringilla, odio ac molestie interdum, eros neque rhoncus nibh, in mollis</p>
+                            <h3 class="h3">Lorem ipsum dolor sit amet.</h3>
+                            <p>Aenean fermentum dolor eu elementum hendrerit. Pellentesque tincidunt, elit eu lobortis maximus, lorem libero ultrices ipsum, sit amet tincidunt nibh risus ac ligula.Vivamus in neque massa. Sed commodo tellus eget convallis congue. Aenean mattis quam sed libero efficitur ullamcorper.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla, odio ac molestie interdum, eros neque rhoncus nibh, in mollis</p>
+                        </div>
+                    </div>
+                </div>
                 <header>
                     <div class="score visible-xs">5<span>/20</span></div>
                     <div class="burger">
@@ -99,6 +159,7 @@
                 </footer>
             </div>
         </div>
-
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
+        <script src="scripts/index.js" type="text/javascript"></script>
     </body>
 </html>
